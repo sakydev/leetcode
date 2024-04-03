@@ -25,5 +25,3 @@ let canConstruct = function(ransomNote, magazine) {
 
     return !Object.keys(ransomMap).length
 };
-
-console.log(canConstruct('bcdd', 'abxcddada'))

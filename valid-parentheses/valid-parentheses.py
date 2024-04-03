@@ -14,5 +14,3 @@ def isValid(s):
         stack.append(current)
 
     return len(stack) < 1
-
-print(isValid('())[]{}'))

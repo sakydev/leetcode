@@ -1,14 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
-
-func main() {
-	nums := []int{-1, 0, 3, 5, 9, 12}
-	fmt.Println(search(nums, 9))
-}
 
 func search(nums []int, target int) int {
 	start := 0

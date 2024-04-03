@@ -25,6 +25,3 @@ function search($nums, $target) {
 
     return -1;
 }
-
-echo search([2, 4, 6, 8, 10, 12, 14, 16, 18, 20], 16);
-// echo search([-1,0,3,5,9,12], 9);

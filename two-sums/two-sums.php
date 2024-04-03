@@ -15,5 +15,3 @@ function twoSum($nums, $target) {
 
     return $response;
 }
-
-print_r(twoSum([2,7,11,15], 9)); // should give 0,1

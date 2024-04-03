@@ -11,7 +11,3 @@ class Solution:
             processed[number] = True
 
         return False
-
-
-x = Solution()
-print(x.containsDuplicate([1,2,3,1])) # True

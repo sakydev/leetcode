@@ -12,5 +12,3 @@ def twoSum(numbers, target):
         map[number] = index
 
     return response
-
-print(twoSum([2, 7, 11, 15], 9))

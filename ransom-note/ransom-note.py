@@ -16,5 +16,3 @@ def canConstruct(ransomNote, magazine):
                 return True
 
     return not bool(ransomMap)
-
-print(canConstruct('bcdd', 'abxcddada'))

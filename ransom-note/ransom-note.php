@@ -11,5 +11,3 @@ function canConstruct($ransomNote, $magazine) {
 
     return true;
 }
-
-echo canConstruct('bcdd', 'abxcddada');

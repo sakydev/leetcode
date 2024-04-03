@@ -8,17 +8,10 @@ class Solution:
 
         while start <= end:
             middle = math.floor((start + end) / 2)
-            if isBadVersion(middle):
+            if isBadVersion(middle): # func provided by leetcode
                 firstBad = middle
                 end = middle - 1
             else:
                 start = middle + 1
 
         return firstBad
-
-def isBadVersion(v):
-    if v == 1:
-        return True
-
-x = Solution()
-print(x.firstBadVersion(1))

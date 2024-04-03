@@ -21,5 +21,3 @@ function isValid($s) {
 
     return empty($stack);
 }
-
-var_dump(isValid('()[]{}'));

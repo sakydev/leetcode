@@ -5,5 +5,3 @@ let isPalindrome = function(s) {
 
     return alphanumeric === reversed
 };
-
-console.log(isPalindrome("A man, a plan, a canal: Panama"))

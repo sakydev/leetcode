@@ -9,7 +9,3 @@ class Solution:
             two = temporary
 
         return one
-
-
-x = Solution()
-print(x.climbStairs(4))
